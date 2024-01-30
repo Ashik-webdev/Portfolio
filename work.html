@@ -10,17 +10,14 @@
       <!--=============== REMIXICONS ===============-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
-
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website - Bedimcode</title>
+      <title>Work - Responsive portfolio website - Bedimcode</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
-      <header class="header" id="header">
+      <header class="header header-pages" id="header">
          <nav class="nav container">
             <a href="index.html" class="nav__logo">Ashik</a>
 
@@ -52,7 +49,7 @@
             <div class="nav__actions">
                <!-- Theme button -->
                <i class="ri-moon-line change-theme" id="theme-button"></i>
-
+               
                <!-- Toggle button -->
                <div class="nav__toggle" id="nav-toggle">
                   <i class="ri-apps-2-line"></i>
@@ -63,63 +60,16 @@
 
       <!--==================== MAIN ====================-->
       <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section">
-            <div class="home__rectangle"></div>
-
-               <div class="home__container container grid">
-                  <div class="home__perfil perfil">
-                     <div class="perfil__content">
-                        <img src="./assets/img/home-profile.jpg" alt="image" class="perfil__img">
-                     </div>
-                  </div>
-
-                  <div class="home__content grid">
-                     <div class="home__data grid">
-                        <h1 class="home__name">
-                           Ashik MM
-                        </h1>
-
-                        <h2 class="home__profession">
-                           Wed Developer & UI Designer
-                        </h2>
-                        <div class="home__social">
-                           <a href="https://github.com/Ashik-webdev" target="_blank" class="home__social-link">
-                              <i class="ri-github-fill"></i>
-                           </a>
-
-                           <a href="https://www.linkedin.com/in/ashik-mm-975965220/" target="_blank" class="home__social-link">
-                              <i class="ri-linkedin-box-fill"></i>
-                           </a>
-
-                           <a href="https://www.behance.net/MUHDashik" target="_blank" class="home__social-link">
-                              <i class="ri-behance-fill"></i>
-                           </a>
-                        </div>
-                     </div>
-                     <a href="./assets/pdf/Ashik MM (3).pdf" download="" class="home__button button">Download CV</a>
-                  </div>
-                  <!-- <a href="./assets/pdf/Ashik MM (3).pdf" download="" class="home__button button">Download CV</a> -->
-               </div>
-         </section>
-
-         <!--==================== SERVICES ====================-->
-         <!-- <section class="services section">
-            <h2 class="section__title">
-               
-            </h2>
-         </section> -->
-
          <!--==================== WORK ====================-->
          <section class="work section">
             <h2 class="section__title">
-               My Post <br>
-               Recent Works
+               My Most <br>
+               Resent Works
             </h2>
 
-            <div class="work__container container grid">
+            <div class="work__container work__page container grid">
                <article class="work__card">
-                  <a href="https://www.behance.net/gallery/172410455/Expense-Tracker-Mobile-App-Design" target="_blank" class="work__link">
+                  <a href="https://www.behance.net/gallery/172410455/Expense-Tracker-Mobile-App-Design" target="_blank"  class="work__link">
                      <img src="./assets/img/UI-Design-1.jpg" alt="image" class="work__img">
                   </a>
 
@@ -146,21 +96,39 @@
                </article>
 
                <article class="work__card">
-                  <a href="https://www.behance.net/gallery/177029541/Product-Design-Shampoo-Face-Cream-Skin-Lotion" target="_blank"  class="work__link">
-                     <img src="./assets/img/Graphic-Design-1.jpg" alt="image" class="work__img">
-                  </a>
-
-                  <h2 class="work__title">Product Design</h2>
-                  <span class="work__subtitle">Mockup and Package Design for Cosmetic Product</span>
-               </article>
-
-               <article class="work__card">
                   <a href="https://prismatic-fudge-6e6500.netlify.app/" target="_blank"  class="work__link">
                      <img src="./assets/img/JS-Project-1-2.jpg" alt="image" class="work__img">
                   </a>
 
                   <h2 class="work__title">JavaScript Project</h2>
                   <span class="work__subtitle">Weather App</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://cheery-cendol-d44898.netlify.app/" target="_blank"  class="work__link">
+                     <img src="./assets/img/JS-Project-1-3.jpg" alt="image" class="work__img">
+                  </a>
+
+                  <h2 class="work__title">JavaScript Project</h2>
+                  <span class="work__subtitle">Quote Project</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://www.figma.com/file/jXbp8kzPt7zA5vKBydH59h/Pixdynamics?type=design&node-id=14%3A28&mode=design&t=ymbGYlild1bH9yGE-1" target="_blank"  class="work__link">
+                     <img src="./assets/img/UI-Design-4-4.jpg" alt="image" class="work__img">
+                  </a>
+
+                  <h2 class="work__title">UI Design for Website</h2>
+                  <span class="work__subtitle">User Interface Design for Pixdynamics's Website</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://www.behance.net/gallery/177029541/Product-Design-Shampoo-Face-Cream-Skin-Lotion" target="_blank"  class="work__link">
+                     <img src="./assets/img/Graphic-Design-1.jpg" alt="image" class="work__img">
+                  </a>
+
+                  <h2 class="work__title">Product Design</h2>
+                  <span class="work__subtitle">Mockup and Package Design for Cosmetic Product</span>
                </article>
 
                <article class="work__card">
@@ -171,25 +139,15 @@
                   <h2 class="work__title">Product Design</h2>
                   <span class="work__subtitle">Mockup and Can Design for Lime Juice Can</span>
                </article>
-            </div>
-         </section>
 
-         <!--==================== TESTIMONIAL ====================-->
-         <!-- <section class="testimonial section">
-            <h2 class="section__title">
+               <article class="work__card">
+                  <a href="https://www.behance.net/gallery/176493361/Delicious-Juice-Can-Design" target="_blank"  class="work__link">
+                     <img src="./assets/img/Graphic-Design-3.jpg" alt="image" class="work__img">
+                  </a>
 
-            </h2>
-         </section> -->
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section">
-            <div class="contact__container container grid">
-               <h2 class="section__title">
-                  let's Talk <br>
-                  About My Projects
-               </h2>
-
-            <a href="./contact.html" class="contact__button button">Contact Me</a>
+                  <h2 class="work__title">Product Design</h2>
+                  <span class="work__subtitle">Mockup and Can Design for Orange Juice Can</span>
+               </article>
             </div>
          </section>
       </main>
@@ -239,21 +197,7 @@
          </div>
       </footer>
 
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-line"></i>
-      </a>
-
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
-
-      <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
-
-      <!--=============== INDEX JS ===============-->
-      <script src="assets/js/index.js"></script>
    </body>
 </html>
-
-
-<!-- https://www.youtube.com/watch?v=F2_6rFk-UC8&list=PL07efmqYWHZ_rVeQ1ws0ER9eL6cxo-d5V -->
